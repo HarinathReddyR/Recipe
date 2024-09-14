@@ -1,0 +1,25 @@
+recipe_frontend/.env
+recipe_backend/.env
+recipeInsert/.env
+
+ESP-backend/.venv/
+
+# Common Node.js and React related ignore patterns (for ESP-frontend)
+node_modules/
+build/
+dist/
+.DS_Store
+
+# Python related ignore patterns (for ESP-backend)
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Pipfile.lock
